@@ -27,7 +27,7 @@ bool main_flag = 0;
 bool flag = 0;
 
 uint32_t btnTimer = 0;
-byte debounce_time = 110;
+byte debounce_time = 60;
 
 void setup() {
   for (int i = 0; i < numButtons; i++) {
